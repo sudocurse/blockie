@@ -81,7 +81,12 @@ export class Block {
     }
 
     deserialize(json) {
-        // todo: get node, text, all children, and recurse
+        for (let node of json.nodes) {
+            let block = new Block(this, node.data);
+            this.addChildBlock(block);
+            block.deserialize(node);
+        }
+        return this;
     }
 }
 

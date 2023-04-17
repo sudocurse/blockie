@@ -7,7 +7,7 @@
 - grids can link up to other grids
 
 TODO
-make block content app @start 3/22 4pm:
+make block content app @start:
 - see what i have by running it with push script https://hackmd.io/dq17_hOSQv-_HHE-gtLRGQ?view#My-development-environment-setup @done
 - Open an IPFS address @done
 - Download this bash script: https://github.com/AgregoreWeb/markdown-blog/blob/main/push.sh @done
